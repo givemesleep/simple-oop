@@ -13,7 +13,7 @@ class Login extends Dbh {
         }else{
             $user = $stmt->fetch();
             $Name = $user['usrName'];
-            header("location: ../view/dashboard.php?Suc=Welcome back $Name");
+            header("location: ../view/dashboard.php?Suc=Welcome Back $Name");
             exit();           
         }
     }

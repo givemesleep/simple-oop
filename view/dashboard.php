@@ -1,3 +1,12 @@
+<?php 
+
+if(isset($_GET['Suc'])){
+    $msg = $_GET['Suc'];
+}else{
+    $msg = null;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +15,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1><?php echo $msg; ?></h1>
 </body>
 </html>
