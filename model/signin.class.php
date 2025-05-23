@@ -34,8 +34,8 @@ class SignIn extends Dbh {
         }
 
 
-        return $rsltCheck;
-
+        return $rsltCheck; 
+        
     }
 }
 
